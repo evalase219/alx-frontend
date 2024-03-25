@@ -409,7 +409,7 @@
   --nav-item-link-hover: var(--color-primary);
 
 /*==========Section tagline margin==========*/
-  --section-tagline-margin
+  --section-tagline-margin: 0;
 }
 
   *,
@@ -514,11 +514,11 @@ a:link {
   padding: var(--footer-padding);
 }
 
+/*==========Menu==========*/
 .navbar-menu {
   float: right;
 }
 
-/*==========Menu==========*/
 .nav {
   margin: 0;
   padding: 0;
