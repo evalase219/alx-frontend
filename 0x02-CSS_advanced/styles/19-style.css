@@ -418,16 +418,16 @@
   }
 
 html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
 }
 
 h1,
@@ -436,38 +436,39 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: var(--font-family-title);
-   font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
 }
+
 a {
-    color: var(--text-color);
-    text-decoration: none;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 a:link {
-    color: var(--text-color);
-    text-decoration: none;
-  }
+  color: var(--text-color);
+  text-decoration: none;
+}
   
-  a:visited {
-    font-style: italic;
-  }
+a:visited {
+  font-style: italic;
+}
   
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
+}
   
-  a:active {
-    background-color: var(--color-light-grey);
-  }
+a:active {
+  background-color: var(--color-light-grey);
+}
 
 
 .visually-hidden {
-    display: none;
+  display: none;
 }
 
 .card-category {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .section {
@@ -475,8 +476,8 @@ a:link {
 }
 
 .section-header {
-    text-align: var(--section-header-align);
-    padding: var(--section-header-padding);
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -489,19 +490,19 @@ a:link {
 }
 
 .section-title {
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
-    font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
-    color: var(--section-title-color);
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
 
 .section-tagline {
-    color: var(--color-primary);
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
-    margin: var(--section-tagline-margin);
+  color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -511,34 +512,35 @@ a:link {
 }
 
   /*==========Menu==========*/
-  .navbar-menu {
-    float: right;
-  }
+.navbar-menu {
+  float: right;
+}
   
-  .nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
   
-  .nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-  }
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
   
-  .nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-  }
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
   
-  .nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-  }
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
 .footer {
   padding: var(--footer-padding);
 }
